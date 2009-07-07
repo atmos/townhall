@@ -1,0 +1,27 @@
+body {
+  background-color: #fff;
+  color: 000;
+}
+
+#page {
+  margin: 45px auto auto auto;
+}
+
+#contact {
+  text-align: center;
+  padding: 2px;
+}
+
+#contact span {
+  padding: 0px 4px;
+}
+
+#contact a {
+  color: #000;
+}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
