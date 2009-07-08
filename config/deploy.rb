@@ -4,7 +4,7 @@ require "eycap/recipes"
 
 set :keep_releases, 5
 set :application,   'townhall'
-set :repository,    'git@github.com:atmos/thetownhall.git'
+set :repository,    'git@github.com:atmos/townhall.git'
 set :deploy_to,     "/data/#{application}"
 set :deploy_via,    :export
 set :monit_group,   "#{application}"
@@ -30,9 +30,9 @@ set :real_revision, 			lambda { source.query_revision(revision) { |cmd| capture(
 
 
 task :compton do
-  role :web, '174.129.222.179'
-  role :app, '174.129.222.179'
-  role :db, '174.129.222.179', :primary => true
+  role :web, 'townhall'
+  role :app, 'townhall'
+  role :db,  'townhall', :primary => true
   set :environment_database, Proc.new { production_database }
   set :dbuser,        'atmos'
   set :dbpass,        '1Rsbe46p7J'
