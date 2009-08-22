@@ -32,6 +32,19 @@ text-decoration: underline;
   color: #000;
 }
 
+#friends {
+  text-align: center;
+  padding: 2px;
+}
+
+#friends span {
+  padding: 0px 4px;
+}
+
+#friends a {
+  color: #000;
+}
+
 img.logo {
   display: block;
   margin-left: auto;
