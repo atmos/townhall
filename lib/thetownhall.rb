@@ -1,4 +1,4 @@
-require File.dirname(__FILE__)+'/../vendor/gems/environments/default.rb'
+require File.dirname(__FILE__)+'/../vendor/gems/environment'
 require 'sinatra/base'
 require 'haml/util'
 require 'haml/engine'
